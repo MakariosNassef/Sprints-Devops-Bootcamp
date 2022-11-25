@@ -1,4 +1,4 @@
-/usr/bin/env bash
+#/usr/bin/env bash
 
 echo "          _____                    _____                    _____          
          /\    \                  /\    \                  /\    \         
