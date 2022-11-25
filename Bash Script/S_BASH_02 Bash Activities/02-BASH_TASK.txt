@@ -1,0 +1,8 @@
+create library with functions to do the following:
+function to check if the user running the script has root privilages ... 
+another function to change ssh default port .. 
+another function to disable root login, 
+another function to add new user to the system and to check if you want to add this user to the sudoers or not .. 
+another function to add backup to crontab to backup the user home directory .. 
+then call this library of functions file to the script you intend to run ... 
+bonus: write while loop that waits for a file to exist before quiting the loop and show that the file is existed now
