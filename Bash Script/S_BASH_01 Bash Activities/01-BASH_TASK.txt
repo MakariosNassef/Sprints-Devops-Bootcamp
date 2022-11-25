@@ -1,0 +1,4 @@
+create bash script to make sure that you have a directory called: Reports under your home directory.
+and then create files for 12 months in this year the format of home directory is ~/Reports/2022/11/13.xls ... 
+make sure that the file and directories exists if not then create them and make backups directory under your home directory and backup your new reports.
+(bonus: the backup part of the script runs only between 12AM and 5AM daily)

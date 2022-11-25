@@ -1,0 +1,15 @@
+bash library (module) to be included into your main bash script that do the following:
+- add (make sure) that the user running the script is either root or has   sudoer privilage)
+- make the main script takes first argument with new sshd port number then change it inside sshd_config
+- disable root login
+- update firewall and selinux to the new sshd port
+- add new group (Audit ) with id 20000
+- add new user (second argument to your script) and the third argument is the password (tricky) with primary group Audit
+- create reports for the whole year 2021 in the format of /home/USER/reports/2021-MM-DD.xls from 2021-01-01.xls to 2021-12-31.xls
+- make sure the user and group can read and write the reports but no one else can view or edit them and only owned by the user
+- update and upgrade your system
+- enable EPEL repository
+- install fail2ban and make sure it's enabled at boot time and running
+- add chron job that backup the reports directory every day at 01 AM from MON to FRI to /root/backups/reports-WEEKNUMBER-DAYNUMBEROFTHEWEEK.tar
+- add new user (manager) with uid 30000
+- sync the reports daily 02AM from MON to FRI to /home/manager/audit/reports
