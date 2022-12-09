@@ -1,0 +1,64 @@
+1- check the docker version installed
+docker version
+
+2- run docker container for hello-world
+sudo docker run hello-world
+
+3- run docker container redis in #detached mode
+docker run -d redis
+
+4- try to stop the running redis container
+docker stop 0f537848bed7
+
+4- check the present container o the host
+docker inspect cfa7b1da8b87
+
+5- check the ID of the redis container
+docker ps |grep redis
+
+6- try to run a container from nginx:alpine and delete image
+docker run nginx:alpine
+docker rmi nginx:alpine
+
+7- delete the image redis
+docker rmi 3358aea34e8c
+
+8- pull image from nginx:1.14-alpine
+Run an instance of the ubuntu image to run the sleep 1000 command at
+startup.
+Exec into the container and touch a file called test-file
+
+docker pull nginx:1.14-alpine
+docker run nginx:1.14-alpine sleep 1000 &
+docker exec -it ba11f888c3e8 /bin/sh
+# touch test-file
+# ls
+
+9- Run a container with the nginx:alpine image and name it web
+docker run --name web nginx:alpine
+
+10- delete all the images from the host
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+docker rmi $(docker images -q)
+
+11- Run an instance of nginx:alpine with a name nginx and map port 8080 on the container to 38282 on the host.
+#sudo docker run -d -p 38282:80 nginx:alpine
+
+12- create ubuntu image and check the size of it
+#docker run -d ubuntu
+#docker image ls
+
+13- Run a container named blue-app using image kodekloud/simplewebapp and set the environment variable APP_COLOR=blue. Make the application available on port 38282 on the host. The application listens on port 8080.
+#docker run --name blue-app -p 38282:8080 -e APP_COLOR=blue kodekloud/simple-webapp
+
+14- Deploy a mysql database using the mysql image and name it mysqldb Set the database password to use db_pass123 then inspect it to check the value
+#docker run -d -e MyPasswerd=db_pass123  --name mysqldb  mysql
+
+15- pull the code from https://github.com/sabreensalama/simpleflask- app/tree/main and create a docker file for this flask app
+#git clone https://github.com/sabreensalama/simple-flask-app
+#vim Dockerfile
+#docker build -t flask-app-v1 .
+
+16- Create a volume called mysql_data, Run a mysql container again, but this time map a volume to the container so that the data stored by the container is stored at /opt/data on the host. Use the same name : mysql-db and same password: db_pass123 as before. Mysql stores data at /var/lib/mysql inside the container.
+#docker run -v mysql_data:/var/lib/mysql --name=mysql-db2 -e MYSQL_ROOT_PASSWORD=db_pass123mysql
