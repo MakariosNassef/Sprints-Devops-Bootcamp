@@ -53,7 +53,7 @@ docker rmi $(docker images -q)
 #docker run --name blue-app -p 38282:8080 -e APP_COLOR=blue kodekloud/simple-webapp
 
 14- Deploy a mysql database using the mysql image and name it mysqldb Set the database password to use db_pass123 then inspect it to check the value
-#docker run -d -e MyPasswerd=db_pass123  --name mysqldb  mysql
+#docker run -d -e MYSQL_ROOT_PASSWORD=db_pass123 --name mysql-db mysql
 
 15- pull the code from https://github.com/sabreensalama/simpleflask- app/tree/main and create a docker file for this flask app
 #git clone https://github.com/sabreensalama/simple-flask-app
