@@ -1,3 +1,9 @@
+:exclamation:  This is very important 
+## And this is the link for the final lab in AWS, Lab 5.
+https://github.com/MakariosNassef/Sprints-Devops-Bootcamp/tree/main/AWS/S_AWS_05%20Lab%205
+ - 01-Lamdafun-s3-to-dynamoDB
+ - 02-EKS
+
 **Question1**
 Implement a vpc with cidr 10.0.0.0/16 with 2 public subnets with cidrs 10.0.0.0/24 and
 10.0.0.2.0/24 with a load balancer to Distribute the traffic between 2 machines with nginx
