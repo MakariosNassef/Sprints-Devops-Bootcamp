@@ -44,7 +44,7 @@ This makes kubectl configured to use “minikube” cluster and “default” na
 - zero rs
 ### 14. create a ReplicaSet with name= replica-set-1 image= busybox replicas= 3 
 > ![image](https://user-images.githubusercontent.com/28235504/213208313-08c3414a-14e0-43f0-804a-0d815e4d5de4.png)
-<br>
+
 > ![image](https://user-images.githubusercontent.com/28235504/213208966-80f19ff9-2034-4737-b6f9-ffd500977f76.png)
 
 ### 15. Scale the ReplicaSet replica-set-1 to 5 PODs.
