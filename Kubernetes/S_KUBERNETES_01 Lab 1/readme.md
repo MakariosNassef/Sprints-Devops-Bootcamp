@@ -46,8 +46,8 @@ This makes kubectl configured to use “minikube” cluster and “default” na
 > ![image](https://user-images.githubusercontent.com/28235504/213208313-08c3414a-14e0-43f0-804a-0d815e4d5de4.png)
 <br>
 > ![image](https://user-images.githubusercontent.com/28235504/213208966-80f19ff9-2034-4737-b6f9-ffd500977f76.png)
-<br>
-### 15. Scale the ReplicaSet replica-set-1 to 5 PODs. 
+
+### 15. Scale the ReplicaSet replica-set-1 to 5 PODs.
 > ![image](https://user-images.githubusercontent.com/28235504/213210112-aebbe917-801f-42b6-84c3-48752180ab3e.png)
 
 ### 16. How many PODs are READY in the replica-set-1? 
