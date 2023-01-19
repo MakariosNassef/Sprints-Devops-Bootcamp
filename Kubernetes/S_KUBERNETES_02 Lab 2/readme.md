@@ -38,13 +38,17 @@
     > busybox
 
 11. Create a deployment with <br>
-> Name: dev-deploy <br>
-> Image: redis <br>
-> Replicas: 2<br>
-> Namespace: dev<br>
-> Resources Requests:<br>
-> CPU: .5 vcpu<br>
-> Mem: 1G<br>
-> Resources Limits:<br>
-> CPU: 1 vcpu<br>
-> Mem: 2G<br>
+    > Name: dev-deploy <br>
+    > Image: redis <br>
+    > Replicas: 2<br>
+    > Namespace: dev<br>
+    > Resources Requests:<br>
+    > CPU: .5 vcpu<br>
+    > Mem: 1G<br>
+    > Resources Limits:<br>
+    > CPU: 1 vcpu<br>
+    > Mem: 2G<br>
+    
+    - ![image](https://user-images.githubusercontent.com/28235504/213532319-7058ef88-1126-4965-9614-bcc97100c1f9.png)
+    - ![image](https://user-images.githubusercontent.com/28235504/213532155-09d31677-c3f6-42fa-b76a-13394b3631e1.png)
+    - 
