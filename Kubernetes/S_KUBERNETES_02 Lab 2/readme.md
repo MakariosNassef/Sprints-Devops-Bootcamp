@@ -51,7 +51,7 @@
     
     - ![image](https://user-images.githubusercontent.com/28235504/213532319-7058ef88-1126-4965-9614-bcc97100c1f9.png)
     - ![image](https://user-images.githubusercontent.com/28235504/213532155-09d31677-c3f6-42fa-b76a-13394b3631e1.png)
-    - I attempted to deploy my application on Killerkoda, but it did not work as only one replica was ready. However, when I tried deploying it on my own cluster, it worked as expected.   
+    - I attempted to apply the yaml file on Killerkoda, but it did not work as only one replica was ready. However, when I tried deploying it on my own cluster, it worked as expected.   
     - ![image](https://user-images.githubusercontent.com/28235504/213540089-bbecb1a4-eed5-4434-a19b-264a7d70d000.png)
 
 
