@@ -31,9 +31,13 @@
     - ![image](https://user-images.githubusercontent.com/28235504/213513339-cc3efe7d-857e-4145-aa83-cc05635883fa.png)
 
 8. Rollback the deployment-1 
-    - $ kubectl rollout status deployment deployment-1
+    > $ kubectl rollout undo deployment/deployment-1
+    > $ kubectl rollout history deployment/deployment-1
+
 9. What is the used image with the deployment-1?
-10. Create a deployment with <br>
+    > busybox
+
+11. Create a deployment with <br>
 > Name: dev-deploy <br>
 > Image: redis <br>
 > Replicas: 2<br>
