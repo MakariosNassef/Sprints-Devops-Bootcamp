@@ -27,7 +27,7 @@
     - ![image](https://user-images.githubusercontent.com/28235504/213513118-fd974c95-e59b-4ec9-9703-bd0c96f664d9.png)
 
 8. Run kubectl describe deployment deployment-1 and check events What is the deployment strategy used to upgrade the deployment-1?
-    - " """""""""""""""""""
+    - " Rolling Update Deployment  It replaces pods, one by one, of the previous version of our application with pods of the new version without any cluster downtime. "
     - ![image](https://user-images.githubusercontent.com/28235504/213513339-cc3efe7d-857e-4145-aa83-cc05635883fa.png)
 
 8. Rollback the deployment-1 
