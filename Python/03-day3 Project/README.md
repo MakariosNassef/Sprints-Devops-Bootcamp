@@ -1,30 +1,113 @@
-# Contact Book applications
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+</p>
 
-### Application Features
-* saving a contact’s details
-* Simple Console App
+<h3 align="center">Capstone Project Contact Book</h3>
 
+<div align="center">
 
-### Prequisites
-Pycharm or VS code
-<br />Python3
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
 
+</div>
 
-### ScreenShot from the Application
+---
 
-![image](https://user-images.githubusercontent.com/28235504/214005034-2573e161-26b7-4c3a-a6ac-7e31d761b57a.png)
+<p align="center"> Few lines describing your project.
+    <br> 
+</p>
 
-![image](https://user-images.githubusercontent.com/28235504/214005195-b76c1d5c-fdba-4370-b4c1-198a0d2e7cfd.png)
+## 📝 Table of Contents
 
-![image](https://user-images.githubusercontent.com/28235504/214005263-a023b52a-45ca-4854-ba0b-8504b015ab94.png)
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
-![image](https://user-images.githubusercontent.com/28235504/214005355-853be7d3-7ce5-4377-8e1e-35c30e9917ab.png)
+## 🧐 About <a name = "about"></a>
 
-![image](https://user-images.githubusercontent.com/28235504/214005514-68409169-6680-4a27-a137-d3ac705601c6.png)
+Write about 1-2 paragraphs describing the purpose of your project.
 
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-## you can also save the database to an online storage platform like AWS
-by run the this script "upload a file to an S3 bucket.py"
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-LinkedIn link below:
-<br />https://www.linkedin.com/in/makarios-nassef/
+### Prerequisites
+
+What things you need to install the software and how to install them.
+
+```
+Give examples
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running.
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo.
+
+## 🔧 Running the tests <a name = "tests"></a>
+
+Explain how to run the automated tests for this system.
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## 🎈 Usage <a name="usage"></a>
+
+Add notes about how to use the system.
+
+## 🚀 Deployment <a name = "deployment"></a>
+
+Add additional notes about how to deploy this on a live system.
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- [MongoDB](https://www.mongodb.com/) - Database
+- [Express](https://expressjs.com/) - Server Framework
+- [VueJs](https://vuejs.org/) - Web Framework
+- [NodeJs](https://nodejs.org/en/) - Server Environment
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+
+See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- References
