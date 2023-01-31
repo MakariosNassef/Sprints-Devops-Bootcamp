@@ -35,6 +35,8 @@ Jenkins Slaves:
 
 
 ## 04) Install jenkins with docker image.
+![image](https://user-images.githubusercontent.com/28235504/215803237-b47fa80e-7dfa-4396-9648-4de8219265bd.png)
+![image](https://user-images.githubusercontent.com/28235504/215803352-c5c719fc-f674-494e-8603-eca359d506c8.png)
 
 
 ## 05) Create free style project and link it to private git repo containing any dockerfile then biuld an image from this dockerfile and push it to private docker repo  
