@@ -31,7 +31,8 @@ Set Node Afnity to the deployment to place the pods on master only
 NodeAfnity: requiredDuringSchedulingIgnoredDuringExecuton
 Key: color
 values: blue
-
+## yaml file
+https://github.com/MakariosNassef/Sprints-Devops-Bootcamp/blob/main/Kubernetes/S_KUBERNETES_03%20Lab%203/app-blue.yml
 ### 12- Create a taint on node01 with key o spray, value o mortein and efect o NoSchedule
 kubectl taint node node01  spray=mortein:NoSchedule
 
@@ -47,4 +48,6 @@ Image name: nginx
 Key: spray
 Value: mortein
 Efect: NoSchedule
-Status: Running
+Status: Running.
+## yaml file
+https://github.com/MakariosNassef/Sprints-Devops-Bootcamp/blob/main/Kubernetes/S_KUBERNETES_03%20Lab%203/bee-pod.yml
