@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blue-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      color: blue
+  template:
+    metadata:
+      labels:
+        color: blue
+    spec:
+      affinity:  
+        nodeAffinity:  
+          requiredDuringSchedulingIgnoredDuringExecution: 
+            nodeSelectorTerms :
+              - matchExpressions:
+                  - key: coloe
+                    operator: In
+                    values :
+                      - blue
+
+      containers : 
+       - name: "nginx"
+         image: "nginx"
+         ports:
+           - containerPort: 80
