@@ -11,7 +11,7 @@ Jenkins is an open source continuous integration/continuous delivery and deploym
   - Executor
   A slot for execution of work defined by a Pipeline or job on a Node. A Node may have zero or more Executors configured which corresponds to how many concurrent Jobs or Pipelines are able to execute on that Node.
 
-03) Explain Jenkins master-slave architecture?
+## 03) Explain Jenkins master-slave architecture?
 ![Screen Shot 2021-11-08 at 5 46 55 PM](https://user-images.githubusercontent.com/28235504/215790667-9ee2f1a1-739e-4158-9473-29b006d52f95.png)
 - Jenkins Master and Slave architecture is a distributed architecture that allows Jenkins to scale horizontally. It consists of a master node that handles all the tasks related to scheduling builds, dispatching builds to the slaves for execution, monitoring slaves, and collecting build results. The slave nodes are responsible for executing the actual build jobs.
 
@@ -25,6 +25,7 @@ The Master’s job is to handle:
  - Monitor the slaves (possibly taking them online and offline as required).
  - Recording and presenting the build results.
  - A Master instance of Jenkins can also execute build jobs directly.
+
 Jenkins Slaves:
  - It hears requests from the Jenkins Master instance.
  - Slaves can run on a variety of operating systems.
@@ -33,4 +34,7 @@ Jenkins Slaves:
 
 
 
-05) Create free style project and link it to private git repo containing any dockerfile then biuld an image from this dockerfile and push it to private docker repo 
+## 04) Install jenkins with docker image.
+
+
+## 05) Create free style project and link it to private git repo containing any dockerfile then biuld an image from this dockerfile and push it to private docker repo  
