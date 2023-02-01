@@ -12,6 +12,9 @@
 
 ## 4- create a ClusterRoleBinding which should be named as cluster-role-binding-devops under the same namespace. Define roleRef apiGroup should be rbac.
 authorization.k8s.io . Kind should be ClusterRole, name should be cluster-role-devops and subjects kind should be ServiceAccount: name should be iti-sadevops and namespace should be iti-devops
+![image](https://user-images.githubusercontent.com/28235504/215995931-6913e18a-7b9a-411d-a2fd-aaa1f7a58afe.png)
+![image](https://user-images.githubusercontent.com/28235504/215995872-189fa191-427d-4231-9b95-7648742935dc.png)
+
 
 ## 5- What is the difference between statefulSets and deployments?
 
