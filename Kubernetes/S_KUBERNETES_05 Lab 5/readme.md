@@ -32,4 +32,32 @@ Networking:
 
 
 ## 6- Set up Ingress on Minikube with the NGINX Ingress Controller play around with paths , you can create more than 2 deployments if you like
-https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/
+
+```
+kubectl create deployment my-nginx --image=nginx
+kubectl expose deployment my-nginx --port=80
+```
+
+```
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: my-nginx-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /my-nginx
+        pathType: Prefix
+        backend:
+          service:
+            name: my-nginx
+            port:
+              name: http
+```
+
+```
+minikube ip
+```
