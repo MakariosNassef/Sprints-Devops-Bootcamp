@@ -25,5 +25,11 @@ Order of pod creation
 Scaling: 
 - Deployments are designed to be scalable and can be updated with a new version of your application. They can be scaled up or down, and Kubernetes will manage the rolling update of your pods to ensure zero downtime.
 - StatefulSet, scaling is more limited and depends on the underlying storage solution.
+
+Networking:
+- StatefulSets provide a stable network identity for each pod, which is important for applications that require stable network identities, such as databases. 
+- With a Deployment, pods do not have a stable network identity and can be created and destroyed at any time.
+
+
 ## 6- Set up Ingress on Minikube with the NGINX Ingress Controller play around with paths , you can create more than 2 deployments if you like
 https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/
