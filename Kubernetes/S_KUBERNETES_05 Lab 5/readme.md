@@ -17,6 +17,8 @@ authorization.k8s.io . Kind should be ClusterRole, name should be cluster-role-d
 
 
 ## 5- What is the difference between statefulSets and deployments?
+StatefulSets and Deployments are two resource types in Kubernetes that are used to manage the deployment of pods.
+
 
 ## 6- Set up Ingress on Minikube with the NGINX Ingress Controller play around with paths , you can create more than 2 deployments if you like
 https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/
