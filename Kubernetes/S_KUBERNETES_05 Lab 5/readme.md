@@ -18,7 +18,11 @@ authorization.k8s.io . Kind should be ClusterRole, name should be cluster-role-d
 
 ## 5- What is the difference between statefulSets and deployments?
 StatefulSets and Deployments are two resource types in Kubernetes that are used to manage the deployment of pods.
-
-
+Order of pod creation
+ - in deployments Pods are created and deleted randomly.
+ - in statefulSets Pods are created in a strict sequence and cannot be deleted randomly.
+Scaling: 
+- Deployments are designed to be scalable and can be updated with a new version of your application. They can be scaled up or down, and Kubernetes will manage the rolling update of your pods to ensure zero downtime.
+- StatefulSet, scaling is more limited and depends on the underlying storage solution.
 ## 6- Set up Ingress on Minikube with the NGINX Ingress Controller play around with paths , you can create more than 2 deployments if you like
 https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/
