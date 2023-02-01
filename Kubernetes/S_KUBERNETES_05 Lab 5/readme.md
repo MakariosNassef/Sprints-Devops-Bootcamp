@@ -6,6 +6,8 @@
 ## 3- create a clusteRole which should be named as cluster-role-devops to grant permissions
 “get”,”list”,”watch”,”create”,”patch”,”update” to “configMaps”,”secrets”,”endpoints”,”nodes”,”pods”,”services”,”namespaces”,”events”,”serviceAccou nts”.
 
+
+
 ## 4- create a ClusterRoleBinding which should be named as cluster-role-binding-devops under the same namespace. Define roleRef apiGroup should be rbac.
 authorization.k8s.io . Kind should be ClusterRole, name should be cluster-role-devops and subjects kind should be ServiceAccount: name should be iti-sadevops and namespace should be iti-devops
 
