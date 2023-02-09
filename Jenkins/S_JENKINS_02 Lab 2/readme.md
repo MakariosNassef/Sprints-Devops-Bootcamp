@@ -16,6 +16,7 @@ Many of the individual syntactical components (or "steps") written into a Jenkin
 ![image](https://user-images.githubusercontent.com/28235504/217923277-08e498d1-f3a0-4714-9284-5a92b44ac774.png)
 ![image](https://user-images.githubusercontent.com/28235504/217923536-8437ff26-94ba-4550-b447-4f10c8d676c4.png)
 
+## this is pipeline from private repo on github
 ```
 pipeline {
     agent any 
