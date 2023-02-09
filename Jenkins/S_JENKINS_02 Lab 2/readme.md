@@ -42,7 +42,7 @@ pipeline {
 ![image](https://user-images.githubusercontent.com/28235504/217923883-5e68d0c6-a948-4bc9-b76a-eceb8609aff4.png)
 ![image](https://user-images.githubusercontent.com/28235504/217923974-41c1969f-d058-460a-9906-eaf052086185.png)
 
-## 05) Create another multibranch pipeline and filter branches to contain only (master , dev , test ) ? 
+## 05) Create another multibranch pipeline and filter branches to contain only (main , dev , test ) ? 
 ## this is pipeline from private repo on github with 3 branches
 ![image](https://user-images.githubusercontent.com/28235504/217937227-b7c7a8c3-8443-4f26-9364-da41ba43d029.png)
 ![image](https://user-images.githubusercontent.com/28235504/217937275-990e5219-56cd-44d8-9044-f064b096f0d1.png)
