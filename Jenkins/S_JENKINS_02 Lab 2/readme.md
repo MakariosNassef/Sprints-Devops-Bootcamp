@@ -13,6 +13,33 @@ Declarative and Scripted Pipelines are constructed fundamentally differently. De
 Many of the individual syntactical components (or "steps") written into a Jenkinsfile
 
 ## 04) Create jenkins pipeline for your repo and use script file (jenkinsfile) to write pipeline syntax ? 
- 
+![image](https://user-images.githubusercontent.com/28235504/217923277-08e498d1-f3a0-4714-9284-5a92b44ac774.png)
+![image](https://user-images.githubusercontent.com/28235504/217923536-8437ff26-94ba-4550-b447-4f10c8d676c4.png)
+
+```
+pipeline {
+    agent any 
+    stages {
+        stage('Build') { 
+            steps {
+                echo 'Hello, Build!'
+            }
+        }
+        stage('Test') { 
+            steps {
+                echo 'Hello, Test!'
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                echo 'Hello, Deploy!'
+            }
+        }
+    }
+}
+```
+![image](https://user-images.githubusercontent.com/28235504/217923883-5e68d0c6-a948-4bc9-b76a-eceb8609aff4.png)
+![image](https://user-images.githubusercontent.com/28235504/217923974-41c1969f-d058-460a-9906-eaf052086185.png)
+
 ## 05) Create another multibranch pipeline and filter branches to contain only (master , dev , test ) ? 
 
