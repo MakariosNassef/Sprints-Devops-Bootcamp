@@ -1,5 +1,3 @@
-S_JENKINS_03 Lab 3
-
 ## 1. what are different method to trigger pipeline in jenkins ? 
   1- Git Push: A pipeline can be triggered whenever changes are pushed to a Git repository. This is a common way to automatically build and test code as soon as it is committed.   <br>
   2- Timer: A pipeline can be set to run automatically at regular intervals, such as every hour or every day. This can be useful for running routine tasks, such as backups or database updates.   
