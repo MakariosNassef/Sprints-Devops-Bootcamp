@@ -23,5 +23,6 @@
   4- help to enforce role-based access control, allowing you to limit the actions that users can perform based on their role within the organization. <br>
   
 ## 5. make jenkins-shared-library and make your jenkinsfile which you used in lab2 to point to this library 
+![image](https://user-images.githubusercontent.com/28235504/218287055-0b3b9174-fb8f-4745-82d6-ec488b664fae.png)
 
 ## 6. bonus >>>>> try to make new slave as container and configure master to use it 
