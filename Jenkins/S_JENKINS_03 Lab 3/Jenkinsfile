@@ -1,35 +1,21 @@
-@Library('dev_lib') _
-
 pipeline {
-     agent any
-//     parameters {
-//         booleanParam(name:'project', defaultValue: true, description:'this paramater help you to know project name')
-//         choice(name: 'namespace', choices:['dev','prod','stage'], description: '' ) 
-//     }
-
+    agent { label 'master' }
     stages {
-        stage('check') {
+        stage('Build') {
             steps {
-                check(namespace)
+                echo 'Building..'
             }
         }
-
-        stage('test') {
-            when {
-                expression{
-                    params.project == true 
-                }
-            }
+        stage('Test') {
             steps {
-                test()
+                echo 'Testing..'
             }
         }
-        
-        stage('deployment') {  
+        stage('Deploy') {
             steps {
-                deployment()
+                load 'vars.groovy'
+                echo call()
             }
-        }    
+        }
     }
-
 }
