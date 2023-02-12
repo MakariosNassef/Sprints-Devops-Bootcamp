@@ -24,5 +24,8 @@
   
 ## 5. make jenkins-shared-library and make your jenkinsfile which you used in lab2 to point to this library 
 ![image](https://user-images.githubusercontent.com/28235504/218287055-0b3b9174-fb8f-4745-82d6-ec488b664fae.png)
+![image](https://user-images.githubusercontent.com/28235504/218310435-c0b33b5e-3180-4676-b5e7-ce9c88b0b843.png)
+![image](https://user-images.githubusercontent.com/28235504/218310455-71656571-4fb2-4380-a62f-146b2574af3a.png)
+![image](https://user-images.githubusercontent.com/28235504/218310491-c6df7f8f-c417-4596-87d7-a5d7733a1b8a.png)
 
 ## 6. bonus >>>>> try to make new slave as container and configure master to use it 
