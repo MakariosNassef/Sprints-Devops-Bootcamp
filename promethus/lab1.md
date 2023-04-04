@@ -23,3 +23,4 @@
  
 ## 5-add any new target to prometheus.yaml file and apply any query on it using promql langauge 
  
+![image](https://user-images.githubusercontent.com/28235504/229931373-2d79b15d-fe38-40bc-9f2d-12f1d6da4f92.png)
